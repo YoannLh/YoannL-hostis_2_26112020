@@ -1,1 +1,29 @@
-style.css
+
+
+#body {
+	padding: 0;
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+#header {
+	height: 100px;
+	justify-content: space-between;
+}
+
+#logo {
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+#menu {
+	margin-right: 5%;
+}
+
+.li {
+	margin-right: 7%;
+	list-style-type: none;
+}
