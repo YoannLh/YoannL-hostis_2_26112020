@@ -9,21 +9,195 @@
 	display: flex;
 }
 
+.top {
+	margin-top: 10px;
+}
+
+.bigTop {
+	margin-top: 30px;
+}
+
+.bigFont {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.middleFont {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.littleFont {
+	font-size: 0.8em;
+}
+
 #header {
-	height: 100px;
+	height: 110px;
 	justify-content: space-between;
 }
 
 #logo {
-	margin-left: 5%;
-	margin-top: 20px;
+	margin-left: 3%;
+	margin-top: 30px;
+}
+
+.imgLogo {
+	height: 50px;
 }
 
 #menu {
-	margin-right: 5%;
+	margin-top: 0;
+	margin-right: 20%;
 }
 
 .li {
-	margin-right: 7%;
+	margin-left: 28%;
+	height: 110px;
+	border-top: 2px solid blue;
 	list-style-type: none;
 }
+
+.contentOfLi {
+	margin: auto;
+}
+
+#search {
+	margin-left: 3%;
+	justify-content: space-around;
+}
+
+#input {
+	height: 3%;
+}
+
+.buttonOfSearch {
+	position: relative;
+	padding: 12px;
+	margin-left: 3%;
+	border: 2px solid grey;
+	border-radius: 25px;
+}
+
+.buttonOfSearch:hover {
+	background: grey;
+}
+
+.buttonLogo {
+	position: absolute;
+	left: -3px;
+	top: -2px;
+	width: 46px;
+	height: 46px;
+	background: rgb(210, 230, 255);
+	border-radius: 25px;
+}
+
+.logo {
+	margin: auto;
+}
+
+.textButton {
+	margin-left: 38px;
+}
+
+#houses {
+	justify-content: space-around;
+}
+
+#examplesOfHouses {
+	height: 500px;
+	width: 60%;
+	background: grey;
+	border-radius: 18px;
+	padding: 30px 30px;
+}
+
+#someHousesPart1 {
+	margin: auto;
+	margin-top: 10px;
+	justify-content: space-between;
+}
+
+#someHousesPart2 {
+	margin: auto;
+	justify-content: space-between;
+}
+
+.house {
+	height: 180px;
+	width: 30%;
+	margin: 11px;
+	background: white;
+	border-radius: 18px;
+}
+
+#mostPopularsHouses {
+	height: 500px;
+	width: 23%;
+	background: grey;
+	border-radius: 18px;
+	padding: 30px 30px;
+}
+
+#mostPopulars {
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.mostPopular {
+	height: 130px;
+	margin-top: 25px;
+	background: white;
+	border-radius: 18px;
+}
+
+#activities {
+	height: 350px;
+	margin-left: 3%;
+}
+
+#footer {
+	height: 125px;
+	padding: 30px;
+	background: grey;
+}
+
+.elementsOfFooter {
+	width: 33%;
+	margin-right: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -8,73 +8,92 @@
 	</head>
 	<body id="body">
 		<header id="header" class="flex">
-			<div id="logo">LOGO</div>
+			<div id="logo">
+				<img src="images/logo.png" alt="logo_agence" class="imgLogo">
+			</div>
 			<ul id="menu" class="flex">
-				<li class="li">Hébergements</li>
-				<li class="li">Activités</li>
-				<li class="li">S'inscrire</li>
+				<li class="li flex"><div class="contentOfLi">Hébergements</div></li>
+				<li class="li flex"><div class="contentOfLi">Activités</div></li>
+				<li class="li flex"><div class="contentOfLi">S'inscrire</div></li>
 			</ul>
 		</header>
-		<section id="search">
-			<div>Trouver votre hébergement pour des vacances de rêve</div>
-			<div>En plein centre ville ou en pleine nature</div>
-			<form action="post">
-				<input type="text">
+		<section id="search" class="section">
+			<div class="bigFont">Trouver votre hébergement pour des vacances de rêve</div>
+			<div class="top">En plein centre ville ou en pleine nature</div>
+			<form method="post" class="top">
+				<input type="text" placeholder="Marseille, Françe" id="input">
 				<button>Rechercher</button>
-				<div>Filtres
-					<button>Economique</button>
-					<button>Familial</button>
-					<button>Romantique</button>
-					<button>Animaux autorisés</button>
+				<div class="middleFont flex bigTop">
+					<div>Filtres</div>
+					<div class="buttonOfSearch flex">
+						<div class="buttonLogo flex"><div class="logo">Y</div></div>
+						<div class="textButton">Economique</div>
+					</div>
+					<div class="buttonOfSearch flex">
+						<div class="buttonLogo flex"><div class="logo">Y</div></div>
+						<div class="textButton">Familial</div>
+					</div>
+					<div class="buttonOfSearch flex">
+						<div class="buttonLogo flex"><div class="logo">Y</div></div>
+						<div class="textButton">Romantique</div>
+					</div>
+					<div class="buttonOfSearch flex">
+						<div class="buttonLogo flex"><div class="logo">Y</div></div>
+						<div class="textButton">Animaux autorisés</div>
+					</div>
 				</div>
 			</form>
-			<div class="flex">
+			<div class="flex bigTop">
 				<div>!</div>
 				Plus de 500 logements sont disponibles dans cette ville
 			</div>
 		</section>
-		<section id="houses" class="flex">
+		<section id="houses" class="section flex bigTop">
 			<div id="examplesOfHouses">
-				<div>Hébergements à Marseille</div>
-				<div>
+				<div class="bigFont">Hébergements à Marseille</div>
+				<div id="someHousesPart1" class="flex">
 					<div class="house">1</div>
 					<div class="house">2</div>
 					<div class="house">3</div>
+				</div>
+				<div id="someHousesPart2" class="flex">
 					<div class="house">4</div>
 					<div class="house">5</div>
 					<div class="house">6</div>
 				</div>
 				<div>Afficher plus</div>
 			</div>
-			<aside id="mostPopulars">
-				<div class="flex">
+			<aside id="mostPopularsHouses">
+				<div class="flex bigFont">
 					Les plus populaires
 					<div>fleche</div>
 				</div>
-				<div class="mostPopular">1</div>
-				<div class="mostPopular">2</div>
-				<div class="mostPopular">3</div>
+				<div id="mostPopulars">
+					<div class="mostPopular">1</div>
+					<div class="mostPopular">2</div>
+					<div class="mostPopular">3</div>
+				</div>
 			</aside>
 		</section>
-		<section id="activities">
-			<div>Activités à Marseille</div>
+		<section id="activities" class="section bigTop">
+			<div class="bigFont">Activités à Marseille</div>
 		</section>
 		<footer id="footer" class="flex">
 			<div class="elementsOfFooter">
-				<div>A propos</div>
-				<div>Fonctionnement du site</div>
-				<div>Conditions générales de vente</div>
-				<div>Données et confidentialité</div>
+				<div class="top middleFont">A propos</div>
+				<div class="top">Fonctionnement du site</div>
+				<div class="top">Conditions générales de vente</div>
+				<div class="top">Données et confidentialité</div>
 			</div>
 			<div class="elementsOfFooter">
-				<div>Nos hébergements</div>
-				<div>Charte qualité</div>
-				<div>Soumettre votre hôtel</div>
+				<div class="top middleFont">Nos hébergements</div>
+				<div class="top">Charte qualité</div>
+				<div class="top">Soumettre votre hôtel</div>
 			</div>
 			<div class="elementsOfFooter">
-				<div>Assistance</div>
-				<div>Centre d'aide</div>
-				<div>Nous contacter</div>
+				<div class="top middleFont">Assistance</div>
+				<div class="top">Centre d'aide</div>
+				<div class="top">Nous contacter</div>
 			</div>
 		</footer>
 	</body>
