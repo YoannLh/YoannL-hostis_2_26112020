@@ -67,7 +67,22 @@
 }
 
 #input {
-	height: 3%;
+	border-radius: 10px;
+}
+
+.iconInput {
+	width: 3.5%;
+	background: blue;
+}
+
+.textInput {
+	height: 40px;
+	width: 17%;
+	border: 1px solid grey;
+}
+
+.buttonInput {
+
 }
 
 .buttonOfSearch {
@@ -127,8 +142,23 @@
 	height: 180px;
 	width: 30%;
 	margin: 11px;
+	padding: 10px;
 	background: white;
 	border-radius: 18px;
+}
+
+.house:hover {
+	background: grey;
+}
+
+.imgHouse {
+	height: 60%;
+	border-radius: 13px 13px 0 0;
+	background: gold;
+}
+
+.detailsHouse {
+	
 }
 
 #mostPopularsHouses {
@@ -146,10 +176,25 @@
 }
 
 .mostPopular {
-	height: 130px;
+	height: 110px;
 	margin-top: 25px;
+	padding: 10px;
 	background: white;
 	border-radius: 18px;
+}
+
+.mostPopular:hover {
+	background: grey;
+}
+
+.imgMostPopular {
+	width: 40%;
+	border-radius: 13px 0 0 13px;
+	background: gold;
+}
+
+.detailsMotPopular {
+
 }
 
 #activities {
