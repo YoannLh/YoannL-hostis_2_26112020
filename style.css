@@ -5,6 +5,12 @@
 	margin: 0;
 }
 
+img 
+{
+	width: 100%;
+	height: 100%;
+}
+
 .flex {
 	display: flex;
 }
@@ -31,18 +37,22 @@
 	font-size: 0.8em;
 }
 
+
+.fas {
+	margin: auto;
+	color: rgb(4, 100, 248);
+	font-size: 1em;
+}
+
 #header {
-	height: 110px;
+	height: 100px;
 	justify-content: space-between;
 }
 
 #logo {
 	margin-left: 3%;
 	margin-top: 30px;
-}
-
-.imgLogo {
-	height: 50px;
+	width: 10em;
 }
 
 #menu {
@@ -53,48 +63,73 @@
 .li {
 	margin-left: 28%;
 	height: 110px;
-	border-top: 2px solid blue;
 	list-style-type: none;
+}
+
+.li:hover {
+	color: rgb(4, 100, 248);
+	border-top: 2px solid rgb(4, 100, 248);
 }
 
 .contentOfLi {
 	margin: auto;
 }
 
+.signUp {
+	color: rgb(4, 100, 248);
+}
+
+#main {
+	padding: 4%;
+}
+
 #search {
-	margin-left: 3%;
 	justify-content: space-around;
 }
 
 #input {
-	border-radius: 10px;
+
 }
 
 .iconInput {
-	width: 3.5%;
-	background: blue;
+	position: relative;
+	left: 3px;
+	width: 4%;
+	background: rgb(242, 242, 242);
+	border-radius: 15px 0 0 15px;
 }
 
 .textInput {
-	height: 40px;
+	height: 45px;
 	width: 17%;
-	border: 1px solid grey;
+	padding-left: 15px;
+	border: 1px solid rgb(242, 242, 242);
 }
 
 .buttonInput {
+	position: relative;
+	left: -1px;
+	width: 10%;
+	background: rgb(4, 100, 248);
+	border-radius: 0 15px 15px 0;
+}
 
+.textButtonInput {
+	color: white;
+	margin: auto;
 }
 
 .buttonOfSearch {
 	position: relative;
 	padding: 12px;
 	margin-left: 3%;
-	border: 2px solid grey;
+	border: 2px solid rgb(242, 242, 242);
 	border-radius: 25px;
 }
 
 .buttonOfSearch:hover {
-	background: grey;
+	background: rgb(242, 242, 242);
+	border: 2px solid rgb(4, 100, 248);
 }
 
 .buttonLogo {
@@ -115,72 +150,97 @@
 	margin-left: 38px;
 }
 
+.exclamation {
+	width: 1em;
+	height: 1em;
+	border-radius: 25px;
+	border: 1px solid rgb(242, 242, 242);
+}
+
+.textAfterExclamation {
+	margin-left: 0.5%;
+}
+
+.fa-info {
+	font-size: 0.6em;
+}
+
 #houses {
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #examplesOfHouses {
-	height: 500px;
-	width: 60%;
-	background: grey;
+	width: 62%;
+	background: rgb(242, 242, 242);
 	border-radius: 18px;
-	padding: 30px 30px;
+	padding: 2% 2%;
 }
 
 #someHousesPart1 {
-	margin: auto;
 	margin-top: 10px;
 	justify-content: space-between;
 }
 
-#someHousesPart2 {
-	margin: auto;
+#someHousesPart2 {	
 	justify-content: space-between;
 }
 
 .house {
-	height: 180px;
+	flex-direction: column;
 	width: 30%;
+	height: 14em;
 	margin: 11px;
 	padding: 10px;
 	background: white;
 	border-radius: 18px;
+	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
 
 .house:hover {
-	background: grey;
+	position: relative;
+	width: 40%;
+	height: 16em;
 }
 
-.imgHouse {
-	height: 60%;
-	border-radius: 13px 13px 0 0;
-	background: gold;
+.imgHousePart1 {
+
 }
 
-.detailsHouse {
+.imgHousePart2 {
+	height: 61%;
+}
+
+.detailsHousePart1 {
+	
+}
+
+.detailsHousePart2 {
 	
 }
 
 #mostPopularsHouses {
-	height: 500px;
-	width: 23%;
-	background: grey;
+	width: 25%;
+	background: rgb(242, 242, 242);
 	border-radius: 18px;
-	padding: 30px 30px;
+	padding: 2% 2%;
 }
 
 #mostPopulars {
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+
+}
+
+.titleMostPopulars {
+	color: black;
+	justify-content: space-between;
 }
 
 .mostPopular {
-	height: 110px;
-	margin-top: 25px;
+	height: 8em;
+	margin-top: 30px;
 	padding: 10px;
 	background: white;
 	border-radius: 18px;
+	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
 
 .mostPopular:hover {
@@ -190,7 +250,6 @@
 .imgMostPopular {
 	width: 40%;
 	border-radius: 13px 0 0 13px;
-	background: gold;
 }
 
 .detailsMotPopular {
@@ -198,14 +257,74 @@
 }
 
 #activities {
-	height: 350px;
-	margin-left: 3%;
+	
+}
+
+.wrapperActivities {
+	display: grid;
+	margin: auto;
+	background: rgb(242, 242, 242);
+	border-radius: 18px;
+	padding: 2% 2%;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 3%;
+	grid-template-rows: 9em 2em 2em 8em;
+  	grid-auto-flow: column;
+}
+
+.activity {
+	flex-direction: column;
+	background: white;
+	border-radius: 18px;
+	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
+}
+
+.activityOne {
+	grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.activityTwo {
+	grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.activityThree {
+	grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.activityFour {
+	grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.activityFive {
+	grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.activitySix {
+	grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
 #footer {
 	height: 125px;
 	padding: 30px;
-	background: grey;
+	background: rgb(242, 242, 242);
 }
 
 .elementsOfFooter {
