@@ -5,6 +5,10 @@
 	margin: 0;
 }
 
+* {
+	font-family: "Raleway";
+}
+
 img 
 {
 	
@@ -49,12 +53,12 @@ img
 }
 
 #logo {
-	margin-left: 3%;
+	margin-left: 4%;
 	margin-top: 30px;
 }
 
 .imgLogo {
-	width: 100px;
+	width: 23%;
 }
 
 #menu {
@@ -81,8 +85,12 @@ img
 	color: rgb(4, 100, 248);
 }
 
+.signUp:hover {
+	border-top: 0px solid rgb(4, 100, 248);
+}
+
 #main {
-	padding: 4%;
+	padding: 0 4% 4% 4%;
 }
 
 #search {
@@ -99,6 +107,10 @@ img
 	width: 4%;
 	background: rgb(242, 242, 242);
 	border-radius: 15px 0 0 15px;
+}
+
+.fa-map-marker-alt {
+	color: black;
 }
 
 .textInput {
@@ -121,10 +133,14 @@ img
 	margin: auto;
 }
 
+.allButtonsOfSearch {
+	align-items: center;
+}
+
 .buttonOfSearch {
 	position: relative;
 	padding: 12px;
-	margin-left: 3%;
+	margin-left: 2%;
 	border: 2px solid rgb(242, 242, 242);
 	border-radius: 25px;
 }
@@ -149,7 +165,7 @@ img
 }
 
 .textButton {
-	margin-left: 38px;
+	margin-left: 42px;
 }
 
 .exclamation {
@@ -172,27 +188,28 @@ img
 }
 
 #examplesOfHouses {
-	width: 62%;
+	width: 60%;
 	background: rgb(242, 242, 242);
 	border-radius: 18px;
 	padding: 2% 2%;
 }
 
 #someHousesPart1 {
-	margin-top: 10px;
+	margin-top: 15px;
 	justify-content: space-between;
 }
 
 #someHousesPart2 {	
+	margin-top: 5px;
 	justify-content: space-between;
 }
 
 .house {
 	flex-direction: column;
 	width: 30%;
-	height: 14em;
+	height: 13vw;
 	margin: 11px;
-	padding: 10px;
+	padding: 5px;
 	background: white;
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
@@ -250,11 +267,15 @@ img
 	
 }
 
+.showMore {
+	margin-left: 2%;
+}
+
 #mostPopularsHouses {
-	width: 25%;
+	width: 29%;
 	background: rgb(242, 242, 242);
 	border-radius: 18px;
-	padding: 2% 2%;
+	padding: 2.5% 2.5%;
 }
 
 #mostPopulars {
@@ -266,10 +287,14 @@ img
 	justify-content: space-between;
 }
 
+.fa-chart-line {
+	color: black;
+}
+
 .mostPopular {
-	height: 8em;
-	margin-top: 30px;
-	padding: 10px;
+	height: 10vw;
+	margin-top: 22px;
+	padding: 5px;
 	background: white;
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
@@ -313,13 +338,13 @@ img
 	padding-top: 2%;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-column-gap: 3%;
-	grid-template-rows: 9em 2em 2em 8em;
+	grid-template-rows: 12vw 3vw 3vw 13vw;
   	grid-auto-flow: column;
 }
 
 .activity {
+	position: relative;
 	flex-direction: column;
-	background: white;
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
@@ -383,12 +408,16 @@ img
 }
 
 .imgActivity {
-	height: auto;
+	height: 100%;
 }
 
 .detailsActivity {
-	height: 2.5em;
-	background: grey;
+	position: absolute;
+	bottom: -3px;
+	height: 50px;
+	width: 100%;
+	background: white;
+	border-radius: 0 0 18px 18px;
 }
 
 #footer {
