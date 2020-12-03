@@ -66,6 +66,14 @@ img
 	margin-top: 30px;
 }
 
+@media screen and (max-width: 901px) 
+{
+	#logo
+	{
+		margin-top: 30px;
+	}
+}
+
 .imgLogo {
 	width: 23%;
 }
@@ -78,26 +86,9 @@ img
 	}
 }
 
-.signUp {
-	color: rgb(4, 100, 248);
-}
-
-.signUp:hover {
-	border-top: 0px solid rgb(4, 100, 248);
-}
-
-@media screen and (max-width: 901px) 
-{
-	.signUp
-	{
-		position: absolute;
-		top: 50px;
-		right: 1%;
-	}
-}
-
 #menu {
-	margin-right: 16%;
+	margin-top: 0;
+	margin-right: 17%;
 }
 
 @media screen and (max-width: 901px) 
@@ -105,11 +96,8 @@ img
 	#menu
 	{
 		width: 100%;
-		margin-right: 0;
-		text-align: center;
-		justify-content: center;
-		align-items: center;
-		top: 200px;
+		margin-top: 10px;
+		padding: 0;
 	}
 }
 
@@ -124,7 +112,7 @@ img
 	.li
 	{
 		margin-right: 0;
-		height: 30px;
+		height: 50px;
 		width: 50%;
 	}
 }
@@ -134,8 +122,39 @@ img
 	border-top: 2px solid rgb(4, 100, 248);
 }
 
+@media screen and (max-width: 901px) 
+{
+	.li:hover
+	{
+		color: rgb(4, 100, 248);
+		border-top: 0px solid rgb(4, 100, 248);
+		border-bottom: 2px solid rgb(4, 100, 248);
+	}
+}
+
 .contentOfLi {
 	margin: auto;
+}
+
+.signUp {
+	position: absolute;
+	top: 46px;
+	right: 3%;
+	color: rgb(4, 100, 248);
+}
+
+.signUp:hover {
+	border-top: 0px solid rgb(4, 100, 248);
+}
+
+@media screen and (max-width: 901px) 
+{
+	.signUp
+	{
+		position: absolute;
+		top: 50px;
+		right: 6%;
+	}
 }
 
 #main {
@@ -146,7 +165,6 @@ img
 {
 	#main
 	{
-		width: 100%;
 		padding: 0;
 	}
 }
@@ -159,18 +177,14 @@ img
 {
 	#search
 	{
-		margin-top: 50px;
+		padding: 12% 6% 6% 6%;
 	}
-}
-
-#input {
-
 }
 
 .iconInput {
 	position: relative;
 	left: 3px;
-	width: 4%;
+	width: 15%;
 	background: rgb(242, 242, 242);
 	border-radius: 15px 0 0 15px;
 }
@@ -181,7 +195,7 @@ img
 
 .textInput {
 	height: 45px;
-	width: 17%;
+	width: 70%;
 	padding-left: 15px;
 	border: 1px solid rgb(242, 242, 242);
 }
@@ -189,7 +203,7 @@ img
 .buttonInput {
 	position: relative;
 	left: -1px;
-	width: 10%;
+	width: 15%;
 	background: rgb(4, 100, 248);
 	border-radius: 0 15px 15px 0;
 }
@@ -224,6 +238,15 @@ img
 	border: 2px solid rgb(160, 160, 160);
 }
 
+@media screen and (max-width: 901px) 
+{
+	.buttonOfSearch
+	{
+		width: 45%;
+		margin-left: 0;
+	}
+}
+
 .buttonLogo {
 	position: absolute;
 	left: -3px;
@@ -250,7 +273,7 @@ img
 }
 
 .textAfterExclamation {
-	margin-left: 0.5%;
+	margin-left: 1%;
 }
 
 .fa-info {
@@ -265,7 +288,8 @@ img
 {
 	#houses
 	{
-		display: block;
+		flex-direction: column-reverse;
+
 	}
 }
 
@@ -547,7 +571,7 @@ img
 }
 
 #footer {
-	height: 125px;
+	height: 150px;
 	padding: 30px;
 	background: rgb(242, 242, 242);
 }
@@ -557,12 +581,13 @@ img
 	#footer
 	{
 		display: block;
+		height: auto;
 	}
 }
 
 .elementsOfFooter {
 	width: 33%;
-	margin-right: 15%;
+	margin-left: 2%;
 }
 
 @media screen and (max-width: 901px) 
