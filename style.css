@@ -9,11 +9,6 @@
 	font-family: "Raleway";
 }
 
-img 
-{
-	
-}
-
 .flex {
 	display: flex;
 }
@@ -184,9 +179,17 @@ img
 .iconInput {
 	position: relative;
 	left: 3px;
-	width: 15%;
+	width: 4%;
 	background: rgb(242, 242, 242);
 	border-radius: 15px 0 0 15px;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.iconInput
+	{
+		width: 15%;
+	}
 }
 
 .fa-map-marker-alt {
@@ -195,22 +198,71 @@ img
 
 .textInput {
 	height: 45px;
-	width: 70%;
+	width: 20%;
 	padding-left: 15px;
 	border: 1px solid rgb(242, 242, 242);
+}
+
+@media screen and (max-width: 901px) 
+{
+	.textInput
+	{
+		width: 100%;
+	}
 }
 
 .buttonInput {
 	position: relative;
 	left: -1px;
-	width: 15%;
+	width: 14%;
 	background: rgb(4, 100, 248);
 	border-radius: 0 15px 15px 0;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.buttonInput
+	{
+		left: -15px;
+		width: 18%;
+		border-radius: 15px 15px 15px 15px;
+	}
 }
 
 .textButtonInput {
 	color: white;
 	margin: auto;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.textButtonInput
+	{
+		display: none;
+	}
+}
+
+.fa-search {
+	display: none;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.fa-search
+	{
+		display: block;
+		font-size: 1.1em;
+		color: white;
+	}
+}
+
+@media screen and (max-width: 901px) 
+{
+	.magnifyingGlass
+	{
+		display: block;
+		margin: auto;
+	}
 }
 
 .allButtonsOfSearch {
@@ -221,7 +273,15 @@ img
 {
 	.allButtonsOfSearch
 	{
-		display: block;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 901px) 
+{
+	.filters
+	{
+		width: 100%;
 	}
 }
 
@@ -272,12 +332,39 @@ img
 	border: 1px solid rgb(242, 242, 242);
 }
 
-.textAfterExclamation {
-	margin-left: 1%;
+@media screen and (max-width: 901px) 
+{
+	.exclamation
+	{
+		position: relative;
+		bottom: 5px;
+		width: 1.9em;
+		height: 1.5em;
+	}
 }
 
 .fa-info {
 	font-size: 0.6em;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.fa-info
+	{
+		font-size: 0.8em;
+	}
+}
+
+.textAfterExclamation {
+	margin-left: 1%;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.textAfterExclamation
+	{
+		margin-left: 2%;
+	}
 }
 
 #houses {
@@ -288,8 +375,8 @@ img
 {
 	#houses
 	{
+		width: 100%;
 		flex-direction: column-reverse;
-
 	}
 }
 
@@ -307,6 +394,7 @@ img
 		width: 100%;
 		border-radius: 0;
 		padding: 0;
+		background: white;
 	}
 }
 
@@ -412,11 +500,11 @@ img
 
 @media screen and (max-width: 901px) 
 {
-	#mostPopularHouses
+	#mostPopularsHouses
 	{
-		width: 100%;
+		width: auto;
+		padding: 5% 6%;
 		border-radius: 0;
-		padding: 0;
 	}
 }
 
@@ -442,6 +530,15 @@ img
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
 
+@media screen and (max-width: 901px) 
+{
+	.mostPopular
+	{
+		height: 40vw;
+		border-radius: 25px;
+	}
+}
+
 .mostPopular:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
@@ -449,6 +546,15 @@ img
 .imgMostPopular {
 	width: 40%;
 	border-radius: 13px 0 0 13px;
+}
+
+@media screen and (max-width: 901px) 
+{
+	.imgMostPopular
+	{
+		height: 40vw;
+		border-radius: 20px 0 0 20px;
+	}
 }
 
 .imgMostPopular1 {
