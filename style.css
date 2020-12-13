@@ -1,63 +1,49 @@
 
-
 #body {
 	padding: 0;
 	margin: 0;
 }
-
 * {
 	font-family: "Raleway";
 }
-
 .flex {
 	display: flex;
 }
-
 .top {
 	margin-top: 10px;
 }
-
 .bigTop {
 	margin-top: 30px;
 }
-
 .bigFont {
 	font-weight: bold;
 }
-
 .middleFont {
 	font-weight: bold;
 }
-
 .littleFont {
 	font-size: 0.8em;
 }
-
 h1 {
 	font-size: 1.5em;
 }
-
 h2 {
 	font-size: 1em;
 }
-
 h3 {
 	font-size: 0.8em;
 }
-
 .fas {
 	margin: auto;
 	color: rgb(4, 100, 248);
 	font-size: 1em;
 }
-
 #header {
 	width: 100%;
 	height: 100px;
 	justify-content: space-between;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#header
 	{
@@ -65,38 +51,32 @@ h3 {
 		align-items: center;
 	}
 }
-
 #logo {
 	margin-left: 4%;
 	margin-top: 30px;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#logo
 	{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 }
-
 .imgLogo {
 	width: 23%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.imgLogo
 	{
 		width: 30%;
 	}
 }
-
 #menu {
 	margin-top: 0;
 	margin-right: 17%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#menu
 	{
@@ -105,14 +85,12 @@ h3 {
 		padding: 0;
 	}
 }
-
 .li {
 	margin-right: 28%;
 	height: 110px;
 	list-style-type: none;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.li
 	{
@@ -121,13 +99,11 @@ h3 {
 		width: 50%;
 	}
 }
-
 .li:hover {
 	color: rgb(4, 100, 248);
 	border-top: 2px solid rgb(4, 100, 248);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.li:hover
 	{
@@ -136,23 +112,19 @@ h3 {
 		border-bottom: 2px solid rgb(4, 100, 248);
 	}
 }
-
 .contentOfLi {
 	margin: auto;
 }
-
 .signUp {
 	position: absolute;
 	top: 46px;
 	right: 3%;
 	color: rgb(4, 100, 248);
 }
-
 .signUp:hover {
 	border-top: 0px solid rgb(4, 100, 248);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.signUp
 	{
@@ -161,31 +133,33 @@ h3 {
 		right: 6%;
 	}
 }
-
 #main {
 	padding: 0 4% 4% 4%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#main
 	{
 		padding: 0;
 	}
 }
-
 #search {
 	justify-content: space-around;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#search
 	{
-		padding: 12% 6% 6% 6%;
+		padding: 10% 6% 0 6%;
 	}
 }
-
+@media screen and (max-width: 512px) 
+{
+	#search
+	{
+		padding: 6% 6% 3% 6%;
+	}
+}
 .iconInput {
 	position: relative;
 	left: 3px;
@@ -193,34 +167,29 @@ h3 {
 	background: rgb(242, 242, 242);
 	border-radius: 15px 0 0 15px;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.iconInput
 	{
 		width: 15%;
 	}
 }
-
 .fa-map-marker-alt {
 	color: black;
 }
-
 .textInput {
 	height: 45px;
 	width: 20%;
 	padding-left: 15px;
 	border: 1px solid rgb(242, 242, 242);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.textInput
 	{
-		width: 100%;
+		width: 70%;
 	}
 }
-
 .buttonInput {
 	position: relative;
 	left: -1px;
@@ -228,35 +197,30 @@ h3 {
 	background: rgb(4, 100, 248);
 	border-radius: 0 15px 15px 0;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.buttonInput
 	{
 		left: -15px;
-		width: 18%;
+		width: 15%;
 		border-radius: 15px 15px 15px 15px;
 	}
 }
-
 .textButtonInput {
 	color: white;
 	margin: auto;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.textButtonInput
 	{
 		display: none;
 	}
 }
-
 .fa-search {
 	display: none;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.fa-search
 	{
@@ -265,8 +229,7 @@ h3 {
 		color: white;
 	}
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.magnifyingGlass
 	{
@@ -274,27 +237,23 @@ h3 {
 		margin: auto;
 	}
 }
-
 .allButtonsOfSearch {
 	align-items: center;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.allButtonsOfSearch
 	{
 		flex-wrap: wrap;
 	}
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.filters
 	{
 		width: 100%;
 	}
 }
-
 .buttonOfSearch {
 	position: relative;
 	padding: 12px;
@@ -302,21 +261,25 @@ h3 {
 	border: 2px solid rgb(242, 242, 242);
 	border-radius: 25px;
 }
-
 .buttonOfSearch:hover {
 	color: rgb(4, 100, 248);
 	border: 2px solid rgb(160, 160, 160);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.buttonOfSearch
 	{
-		width: 45%;
-		margin-left: 0;
+		margin: 0;
+		margin: 1% 1% 0 0;
 	}
 }
-
+@media screen and (max-width: 512px) 
+{
+	.buttonOfSearch
+	{
+		margin: 2% 5% 2% 0;
+	}
+}
 .buttonLogo {
 	position: absolute;
 	left: -3px;
@@ -326,23 +289,19 @@ h3 {
 	background: rgb(210, 230, 255);
 	border-radius: 25px;
 }
-
 .logo {
 	margin: auto;
 }
-
 .textButton {
 	margin-left: 42px;
 }
-
 .exclamation {
 	width: 1em;
 	height: 1em;
 	border-radius: 25px;
 	border: 1px solid rgb(242, 242, 242);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.exclamation
 	{
@@ -352,36 +311,30 @@ h3 {
 		height: 1.5em;
 	}
 }
-
 .fa-info {
 	font-size: 0.6em;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.fa-info
 	{
 		font-size: 0.8em;
 	}
 }
-
 .textAfterExclamation {
 	margin-left: 1%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.textAfterExclamation
 	{
 		margin-left: 2%;
 	}
 }
-
 #houses {
 	justify-content: space-between;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#houses
 	{
@@ -389,49 +342,43 @@ h3 {
 		flex-direction: column-reverse;
 	}
 }
-
 #examplesOfHouses {
 	width: 60%;
 	background: rgb(242, 242, 242);
 	border-radius: 18px;
 	padding: 2% 2%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#examplesOfHouses
 	{	width: auto;
 		border-radius: 0;
 		background: white;
+		padding: 2% 6%;
 	}
 }
-
 #someHousesPart1 {
 	margin-top: 15px;
 	justify-content: space-between;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#someHousesPart1
 	{
 		display: block;
 	}
 }
-
 #someHousesPart2 {	
 	margin-top: 5px;
 	justify-content: space-between;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	#someHousesPart2
 	{
 		display: block;
 	}
 }
-
 .house {
 	flex-direction: column;
 	width: 30%;
@@ -442,89 +389,91 @@ h3 {
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
+{
+	.house
+	{	
+		width: auto;
+		height: 28vw;
+		margin: 0;
+		margin-bottom: 16px;
+	}
+}
+@media screen and (max-width: 512px) 
 {
 	.house
 	{	
 		width: auto;
 		height: 45vw;
-		margin-bottom: 20px;
 	}
 }
-
 .house:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
-
 .imgHouse {
 	border-radius: 13px 13px 0 0;
 }
-
 .imgHouse1 {
 	height: 100%;
 	background: url("./images/house1.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgHouse2 {
 	height: 100%;
 	background: url("./images/house2.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgHouse3 {
 	height: 100%;
 	background: url("./images/house3.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgHouse4 {
 	height: 100%;
 	background: url("./images/house4.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgHouse5 {
 	height: 100%;
 	background: url("./images/house5.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgHouse6 {
 	height: 100%;
 	background: url("./images/house6.jpg") no-repeat center;
     background-size: cover;
 }
-
 .detailsHousePart1 {
 	padding: 5px;
 }
-
 .detailsHousePart2 {
 	padding: 5px;
 }
-
 .allStars {
 
 }
-
 .greyStar {
 	color: rgb(210, 210, 210);
 }
-
 .showMore {
 	margin-left: 2%;
 }
-
 #mostPopularsHouses {
 	width: 29%;
 	background: rgb(242, 242, 242);
 	border-radius: 18px;
 	padding: 2.5% 2.5%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
+{
+	#mostPopularsHouses
+	{
+		width: auto;
+		padding: 2% 6%;
+		border-radius: 0;
+	}
+}
+@media screen and (max-width: 512px) 
 {
 	#mostPopularsHouses
 	{
@@ -533,20 +482,16 @@ h3 {
 		border-radius: 0;
 	}
 }
-
 #mostPopulars {
 
 }
-
 .titleMostPopulars {
 	color: black;
 	justify-content: space-between;
 }
-
 .fa-chart-line {
 	color: black;
 }
-
 .mostPopular {
 	height: 10vw;
 	margin-top: 22px;
@@ -555,8 +500,16 @@ h3 {
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
+{
+	.mostPopular
+	{
+		margin-top: 16px;
+		height: 22vw;
+		border-radius: 25px;
+	}
+}
+@media screen and (max-width: 512px) 
 {
 	.mostPopular
 	{
@@ -564,17 +517,14 @@ h3 {
 		border-radius: 25px;
 	}
 }
-
 .mostPopular:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
-
 .imgMostPopular {
 	width: 40%;
 	border-radius: 13px 0 0 13px;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.imgMostPopular
 	{
@@ -582,33 +532,36 @@ h3 {
 		border-radius: 20px 0 0 20px;
 	}
 }
-
 .imgMostPopular1 {
 	height: 100%;
 	background: url("./images/most_popular1.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgMostPopular2 {
 	height: 100%;
 	background: url("./images/most_popular2.jpg") no-repeat center;
     background-size: cover;
 }
-
 .imgMostPopular3 {
 	height: 100%;
 	background: url("./images/most_popular3.jpg") no-repeat center;
     background-size: cover;
 }
-
 .detailsMostPopular {
 	padding: 10px 20px;
 }
-
 #activities {
-	padding: 0 6% 9% 6%;
+	
 }
-
+@media screen and (max-width: 768px) 
+{
+	#activities
+	{
+		grid-template-columns: 1fr;
+		grid-template-rows: 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw;
+		padding: 0 6% 9% 6%;
+	}
+}
 .wrapperActivities {
 	display: grid;
 	margin: auto;
@@ -619,8 +572,15 @@ h3 {
 	grid-template-rows: 12vw 3vw 3vw 13vw;
   	grid-auto-flow: column;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
+{
+	.wrapperActivities
+	{
+		grid-template-columns: 1fr;
+		grid-template-rows: 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw;
+	}
+}
+@media screen and (max-width: 512px) 
 {
 	.wrapperActivities
 	{
@@ -628,18 +588,15 @@ h3 {
 		grid-template-rows: 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw;
 	}
 }
-
 .activity {
 	position: relative;
 	flex-direction: column;
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
-
 .activity:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
-
 .activityOne {
 	grid-column-start: 1;
     grid-column-end: 1;
@@ -648,8 +605,7 @@ h3 {
     background: url("./images/activity1.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activityOne
 	{
@@ -659,17 +615,15 @@ h3 {
     	grid-row-end: 2;
 	}
 }
-
 .activityTwo {
-	grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
+	grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
     grid-row-end: 3;
     background: url("./images/activity2.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activityTwo
 	{
@@ -679,7 +633,6 @@ h3 {
     	grid-row-end: 4;
 	}
 }
-
 .activityThree {
 	grid-column-start: 2;
     grid-column-end: 2;
@@ -688,8 +641,7 @@ h3 {
     background: url("./images/activity3.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activityThree
 	{
@@ -699,7 +651,6 @@ h3 {
     	grid-row-end: 6;
 	}
 }
-
 .activityFour {
 	grid-column-start: 3;
     grid-column-end: 3;
@@ -708,8 +659,7 @@ h3 {
     background: url("./images/activity4.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activityFour
 	{
@@ -719,7 +669,6 @@ h3 {
     	grid-row-end: 8;
 	}
 }
-
 .activityFive {
 	grid-column-start: 4;
     grid-column-end: 4;
@@ -728,8 +677,7 @@ h3 {
     background: url("./images/activity5.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activityFive
 	{
@@ -739,7 +687,6 @@ h3 {
     	grid-row-end: 10;
 	}
 }
-
 .activitySix {
 	grid-column-start: 4;
     grid-column-end: 4;
@@ -748,8 +695,7 @@ h3 {
     background: url("./images/activity6.jpg") no-repeat center;
     background-size: cover;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.activitySix
 	{
@@ -759,11 +705,9 @@ h3 {
     	grid-row-end: 12;
 	}
 }
-
 .imgActivity {
 	height: 100%;
 }
-
 .detailsActivity {
 	position: absolute;
 	bottom: -3px;
@@ -773,18 +717,22 @@ h3 {
 	background: white;
 	border-radius: 0 0 18px 18px;
 }
-
 .textActivity {
 	padding: 0 10px;
 }
-
 #footer {
 	height: 150px;
 	padding: 30px;
 	background: rgb(242, 242, 242);
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 1024px) 
+{
+	#footer
+	{
+		margin-top: 45px;
+	}
+}
+@media screen and (max-width: 768px) 
 {
 	#footer
 	{
@@ -792,13 +740,11 @@ h3 {
 		height: auto;
 	}
 }
-
 .elementsOfFooter {
 	width: 33%;
 	margin-left: 2%;
 }
-
-@media screen and (max-width: 901px) 
+@media screen and (max-width: 768px) 
 {
 	.elementsOfFooter
 	{
