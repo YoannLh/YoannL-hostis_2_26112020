@@ -10,13 +10,13 @@
 	display: flex;
 }
 .top {
-	margin-top: 10px;
+	margin-top: 3px;
 }
 .bigTop {
 	margin-top: 30px;
 }
 .bigFont {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	font-weight: bold;
 }
 .middleFont {
@@ -92,13 +92,15 @@ h3 {
 	}
 }
 #menu {
+	position: relative;
 	margin-top: 0;
-	margin-right: 17%;
+	right: 18%;
 }
 @media screen and (max-width: 768px) 
 {
 	#menu
 	{
+		position: initial;
 		width: 100%;
 		margin-top: 10px;
 		padding: 0;
@@ -136,9 +138,6 @@ h3 {
 	margin: auto;
 }
 .signUp {
-	position: absolute;
-	top: 46px;
-	right: 3%;
 	color: rgb(4, 100, 248);
 }
 .signUp:hover {
@@ -149,8 +148,13 @@ h3 {
 	.signUp
 	{
 		position: absolute;
-		top: 50px;
+		width: auto;
+		top: 40px;
 		right: 6%;
+	}
+	.signUp .contentOfLi
+	{
+		margin: 0;
 	}
 }
 #main {
@@ -203,6 +207,11 @@ h3 {
 	padding-left: 15px;
 	border: 1px solid rgb(242, 242, 242);
 }
+.textInput::placeholder {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: black;
+}
 @media screen and (max-width: 768px) 
 {
 	.textInput
@@ -213,7 +222,7 @@ h3 {
 .buttonInput {
 	position: relative;
 	left: -1px;
-	width: 14%;
+	width: 12%;
 	background: rgb(4, 100, 248);
 	border-radius: 0 15px 15px 0;
 }
@@ -382,7 +391,8 @@ h3 {
 	}
 }
 #someHousesPart1 {
-	margin-top: 15px;
+	margin-top: 35px;
+	width: 100%;
 	justify-content: space-between;
 }
 @media screen and (max-width: 768px) 
@@ -393,7 +403,8 @@ h3 {
 	}
 }
 #someHousesPart2 {	
-	margin-top: 5px;
+	margin-top: 30px;
+	width: 100%;
 	justify-content: space-between;
 }
 @media screen and (max-width: 768px) 
@@ -407,7 +418,7 @@ h3 {
 	flex-direction: column;
 	width: 30%;
 	height: 13vw;
-	margin: 11px;
+	
 	padding: 5px;
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
@@ -466,9 +477,37 @@ h3 {
 	height: 40%;
 	padding: 5px;
 }
+@media screen and (max-width: 768px) 
+{
+	.detailsHouse
+	{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 512px) 
+{
+	.detailsHouse
+	{
+		font-size: 1.2em;
+	}
+}
 .allStars {
 	position: absolute;
 	bottom: 5px;
+}
+@media screen and (max-width: 1024px) 
+{
+	.allStars
+	{
+		font-size: 0.6em;
+	}
+}
+@media screen and (max-width: 768px) 
+{
+	.allStars
+	{
+		font-size: 1em;
+	}
 }
 .greyStar {
 	color: rgb(210, 210, 210);
@@ -508,6 +547,8 @@ h3 {
 	justify-content: space-between;
 }
 .fa-chart-line {
+	font-size: 1.4em;
+	margin-top: 16px;
 	color: black;
 }
 .mostPopular {
@@ -574,7 +615,23 @@ h3 {
 .detailsMostPopular {
 	position: relative;
 	width: 50%;
+	flex-direction: column;
+	
 	padding: 10px 15px;
+}
+@media screen and (max-width: 768px) 
+{
+	.detailsMostPopular
+	{
+		font-size: 1.8em;
+	}
+}
+@media screen and (max-width: 512px) 
+{
+	.detailsMostPopular
+	{
+		font-size: 1.2em;
+	}
 }
 #activities {
 	
