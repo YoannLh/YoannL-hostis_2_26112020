@@ -209,9 +209,13 @@ h3 {
 }
 @media screen and (max-width: 768px) 
 {
+	#input {
+		position: relative;
+		width: 100%;
+	}
 	.textInput
 	{
-		width: 70%;
+		width: 75%;
 	}
 }
 .buttonInput {
@@ -225,9 +229,18 @@ h3 {
 {
 	.buttonInput
 	{
-		left: -15px;
-		width: 15%;
+		position: absolute;
+		width: 30%;
+		height: 100%;
+		left: 85%;
 		border-radius: 15px 15px 15px 15px;
+	}
+}
+@media screen and (max-width: 768px) 
+{
+	.buttonInput
+	{
+		width: 15%;
 	}
 }
 .textButtonInput {
@@ -423,7 +436,7 @@ h3 {
 	.house
 	{	
 		width: auto;
-		height: 28vw;
+		height: 32vw;
 		margin: 0;
 		margin-bottom: 16px;
 	}
@@ -432,7 +445,6 @@ h3 {
 {
 	.house
 	{	
-		width: auto;
 		height: 45vw;
 	}
 }
@@ -442,6 +454,20 @@ h3 {
 .imgHouse {
 	height: 60%;
 	border-radius: 13px 13px 0 0;
+}
+@media screen and (max-width: 768px) 
+{
+	.imgHouse
+	{	
+		height: 75%;
+	}
+}
+@media screen and (max-width: 512px) 
+{
+	.imgHouse
+	{	
+		height: 60%;
+	}
 }
 .imgHouse1 {
 	background: url("./images/house1.jpg") no-repeat center;
@@ -638,8 +664,6 @@ h3 {
 {
 	#activities
 	{
-		grid-template-columns: 1fr;
-		grid-template-rows: 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw;
 		padding: 0 6% 9% 6%;
 	}
 }
@@ -658,7 +682,7 @@ h3 {
 	.wrapperActivities
 	{
 		grid-template-columns: 1fr;
-		grid-template-rows: 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw 5vw 28vw;
+		grid-template-rows: 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw;
 	}
 }
 @media screen and (max-width: 512px) 
