@@ -583,6 +583,10 @@ p {
 	{
 		font-size: 1.5em;
 	}
+	.night
+	{
+		margin-bottom: 5%;
+	}
 	.allStars
 	{
 		font-size: 0.7em;
@@ -605,7 +609,7 @@ p {
 	}
 	.detailsMostPopular
 	{
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 	#activities
 	{
@@ -657,6 +661,10 @@ p {
    		grid-column-end: 1;
     	grid-row-start: 11;
     	grid-row-end: 12;
+	}
+	.textActivity
+	{
+		font-size: 1.5em;
 	}
 	#footer
 	{
@@ -711,5 +719,9 @@ p {
 	{
 		grid-template-columns: 1fr;
 		grid-template-rows: 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw;
+	}
+	.textActivity
+	{
+		font-size: 1.2em;
 	}
 }
