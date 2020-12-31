@@ -10,7 +10,7 @@
 	display: flex;
 }
 .top {
-	margin-top: 3px;
+	margin-top: 2%;
 }
 .bigTop {
 	margin-top: 25px;
@@ -48,6 +48,9 @@ h2 {
 h3 {
 	font-size: 0.8em;
 }
+p {
+	margin: 0;
+}
 .fas {
 	margin: auto;
 	color: rgb(4, 100, 248);
@@ -58,48 +61,17 @@ h3 {
 	height: 100px;
 	justify-content: space-between;
 }
-@media screen and (max-width: 768px) 
-{
-	#header
-	{
-		display: block;
-		align-items: center;
-	}
-}
 #logo {
 	margin-left: 4%;
 	margin-top: 30px;
 }
-@media screen and (max-width: 768px) 
-{
-	#logo
-	{
-		margin-top: 20px;
-	}
-}
 .imgLogo {
 	width: 23%;
-}
-@media screen and (max-width: 768px) 
-{
-	.imgLogo
-	{
-		width: 30%;
-	}
 }
 #menu {
 	position: relative;
 	margin-top: 0;
 	right: 18%;
-}
-@media screen and (max-width: 768px) 
-{
-	#menu
-	{
-		position: initial;
-		width: 100%;
-		padding: 0;
-	}
 }
 .li {
 	margin-right: 28%;
@@ -107,27 +79,9 @@ h3 {
 	color: rgb(150, 150, 150);
 	list-style-type: none;
 }
-@media screen and (max-width: 768px) 
-{
-	.li
-	{
-		margin-right: 0;
-		height: 50px;
-		width: 50%;
-	}
-}
 .li:hover {
 	color: rgb(4, 100, 248);
 	border-top: 2px solid rgb(4, 100, 248);
-}
-@media screen and (max-width: 768px) 
-{
-	.li:hover
-	{
-		color: rgb(4, 100, 248);
-		border-top: 0px solid rgb(4, 100, 248);
-		border-bottom: 2px solid rgb(4, 100, 248);
-	}
 }
 .contentOfLi {
 	margin: auto;
@@ -138,46 +92,14 @@ h3 {
 .signUp:hover {
 	border-top: 0px solid rgb(4, 100, 248);
 }
-@media screen and (max-width: 768px) 
-{
-	.signUp
-	{
-		position: absolute;
-		width: auto;
-		top: 40px;
-		right: 6%;
-	}
-	.signUp .contentOfLi
-	{
-		margin: 0;
-	}
-}
 #main {
 	padding: 0 4% 4% 4%;
-}
-@media screen and (max-width: 768px) 
-{
-	#main
-	{
-		padding: 0;
-	}
 }
 #search {
 	justify-content: space-around;
 }
-@media screen and (max-width: 768px) 
-{
-	#search
-	{
-		padding: 8% 6% 0 6%;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	#search
-	{
-		padding: 6% 6% 3% 6%;
-	}
+#input {
+	margin-top: 2%;
 }
 .iconInput {
 	position: relative;
@@ -185,13 +107,6 @@ h3 {
 	width: 4%;
 	background: rgb(242, 242, 242);
 	border-radius: 15px 0 0 15px;
-}
-@media screen and (max-width: 768px) 
-{
-	.iconInput
-	{
-		width: 15%;
-	}
 }
 .fa-map-marker-alt {
 	color: black;
@@ -208,17 +123,6 @@ h3 {
 	font-weight: bold;
 	color: black;
 }
-@media screen and (max-width: 768px) 
-{
-	#input {
-		position: relative;
-		width: 100%;
-	}
-	.textInput
-	{
-		width: 75%;
-	}
-}
 .buttonInput {
 	position: relative;
 	left: -3px;
@@ -226,71 +130,15 @@ h3 {
 	background: rgb(4, 100, 248);
 	border-radius: 0 15px 15px 0;
 }
-@media screen and (max-width: 768px) 
-{
-	.buttonInput
-	{
-		position: absolute;
-		width: 30%;
-		height: 100%;
-		left: 85%;
-		border-radius: 15px 15px 15px 15px;
-	}
-}
-@media screen and (max-width: 768px) 
-{
-	.buttonInput
-	{
-		width: 15%;
-	}
-}
 .textButtonInput {
 	color: white;
 	margin: auto;
 }
-@media screen and (max-width: 768px) 
-{
-	.textButtonInput
-	{
-		display: none;
-	}
-}
 .fa-search {
 	display: none;
 }
-@media screen and (max-width: 768px) 
-{
-	.fa-search
-	{
-		display: block;
-		font-size: 1.1em;
-		color: white;
-	}
-}
-@media screen and (max-width: 768px) 
-{
-	.magnifyingGlass
-	{
-		display: block;
-		margin: auto;
-	}
-}
 .allButtonsOfSearch {
 	align-items: center;
-}
-@media screen and (max-width: 768px) 
-{
-	.allButtonsOfSearch
-	{
-		flex-wrap: wrap;
-	}
-}
-@media screen and (max-width: 768px) 
-{
-	.filters
-	{
-		width: 100%;
-	}
 }
 .buttonOfSearch {
 	position: relative;
@@ -310,21 +158,6 @@ h3 {
 .buttonOfSearch:hover>.textButton {
 	color: rgb(4, 100, 248);
 }
-@media screen and (max-width: 768px) 
-{
-	.buttonOfSearch
-	{
-		margin: 0;
-		margin: 1% 1% 0 0;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.buttonOfSearch
-	{
-		margin: 2% 5% 2% 0;
-	}
-}
 .buttonLogo {
 	position: absolute;
 	left: -3px;
@@ -343,46 +176,14 @@ h3 {
 	border-radius: 25px;
 	border: 1px solid rgb(242, 242, 242);
 }
-@media screen and (max-width: 768px) 
-{
-	.exclamation
-	{
-		position: relative;
-		bottom: 5px;
-		width: 1.9em;
-		height: 1.5em;
-	}
-}
 .fa-info {
 	font-size: 0.6em;
-}
-@media screen and (max-width: 768px) 
-{
-	.fa-info
-	{
-		font-size: 0.8em;
-	}
 }
 .textAfterExclamation {
 	margin-left: 1%;
 }
-@media screen and (max-width: 768px) 
-{
-	.textAfterExclamation
-	{
-		margin-left: 2%;
-	}
-}
 #houses {
 	justify-content: space-between;
-}
-@media screen and (max-width: 768px) 
-{
-	#houses
-	{
-		width: 100%;
-		flex-direction: column-reverse;
-	}
 }
 #examplesOfHouses {
 	width: 60%;
@@ -390,38 +191,15 @@ h3 {
 	border-radius: 18px;
 	padding: 2% 2%;
 }
-@media screen and (max-width: 768px) 
-{
-	#examplesOfHouses
-	{	width: auto;
-		border-radius: 0;
-		background: white;
-		padding: 2% 6%;
-	}
-}
 #someHousesPart1 {
 	margin-top: 35px;
 	width: 100%;
 	justify-content: space-between;
 }
-@media screen and (max-width: 768px) 
-{
-	#someHousesPart1
-	{
-		display: block;
-	}
-}
 #someHousesPart2 {	
 	margin-top: 30px;
 	width: 100%;
 	justify-content: space-between;
-}
-@media screen and (max-width: 768px) 
-{
-	#someHousesPart2
-	{
-		display: block;
-	}
 }
 .house {
 	flex-direction: column;
@@ -432,43 +210,12 @@ h3 {
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
-@media screen and (max-width: 768px) 
-{
-	.house
-	{	
-		width: auto;
-		height: 32vw;
-		margin: 0;
-		margin-bottom: 16px;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.house
-	{	
-		height: 45vw;
-	}
-}
 .house:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
 .imgHouse {
 	height: 60%;
 	border-radius: 13px 13px 0 0;
-}
-@media screen and (max-width: 768px) 
-{
-	.imgHouse
-	{	
-		height: 75%;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.imgHouse
-	{	
-		height: 60%;
-	}
 }
 .imgHouse1 {
 	background: url("./images/house1.jpg") no-repeat center;
@@ -499,37 +246,9 @@ h3 {
 	height: 40%;
 	padding: 5px;
 }
-@media screen and (max-width: 768px) 
-{
-	.detailsHouse
-	{
-		font-size: 1.5em;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.detailsHouse
-	{
-		font-size: 1.2em;
-	}
-}
 .allStars {
 	position: absolute;
 	bottom: 5px;
-}
-@media screen and (max-width: 1024px) 
-{
-	.allStars
-	{
-		font-size: 0.6em;
-	}
-}
-@media screen and (max-width: 768px) 
-{
-	.allStars
-	{
-		font-size: 0.7em;
-	}
 }
 .greyStar {
 	color: rgb(210, 210, 210);
@@ -542,27 +261,6 @@ h3 {
 	background: rgb(242, 242, 242);
 	border-radius: 18px;
 	padding: 2% 2.5%;
-}
-@media screen and (max-width: 768px) 
-{
-	#mostPopularsHouses
-	{
-		width: auto;
-		padding: 2% 6%;
-		border-radius: 0;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	#mostPopularsHouses
-	{
-		width: auto;
-		padding: 5% 6%;
-		border-radius: 0;
-	}
-}
-#mostPopulars {
-
 }
 .titleMostPopulars {
 	color: black;
@@ -581,37 +279,12 @@ h3 {
 	border-radius: 18px;
 	box-shadow: rgb(180, 180, 180) 1px 1px 20px;
 }
-@media screen and (max-width: 768px) 
-{
-	.mostPopular
-	{
-		margin-top: 16px;
-		height: 22vw;
-		border-radius: 25px;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.mostPopular
-	{
-		height: 40vw;
-		border-radius: 25px;
-	}
-}
 .mostPopular:hover {
 	box-shadow: rgb(255, 255, 255) 0px 0px 0px;
 }
 .imgMostPopular {
 	width: 40%;
 	border-radius: 13px 0 0 13px;
-}
-@media screen and (max-width: 768px) 
-{
-	.imgMostPopular
-	{
-		height: 40vw;
-		border-radius: 20px 0 0 20px;
-	}
 }
 .imgMostPopular1 {
 	
@@ -641,32 +314,11 @@ h3 {
 	
 	padding: 10px 15px;
 }
-@media screen and (max-width: 768px) 
-{
-	.detailsMostPopular
-	{
-		font-size: 1.8em;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.detailsMostPopular
-	{
-		font-size: 1.2em;
-	}
-}
 .price {
 	margin-top: 5%;
 }
 #activities {
 	
-}
-@media screen and (max-width: 768px) 
-{
-	#activities
-	{
-		padding: 0 6% 9% 6%;
-	}
 }
 .wrapperActivities {
 	display: grid;
@@ -677,22 +329,6 @@ h3 {
 	grid-column-gap: 3%;
 	grid-template-rows: 12vw 3vw 3vw 13vw;
   	grid-auto-flow: column;
-}
-@media screen and (max-width: 768px) 
-{
-	.wrapperActivities
-	{
-		grid-template-columns: 1fr;
-		grid-template-rows: 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw;
-	}
-}
-@media screen and (max-width: 512px) 
-{
-	.wrapperActivities
-	{
-		grid-template-columns: 1fr;
-		grid-template-rows: 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw;
-	}
 }
 .activity {
 	position: relative;
@@ -711,16 +347,6 @@ h3 {
     background: url("./images/activity1.jpg") no-repeat center;
     background-size: cover;
 }
-@media screen and (max-width: 768px) 
-{
-	.activityOne
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 1;
-    	grid-row-end: 2;
-	}
-}
 .activityTwo {
 	grid-column-start: 2;
     grid-column-end: 2;
@@ -728,16 +354,6 @@ h3 {
     grid-row-end: 3;
     background: url("./images/activity2.jpg") no-repeat center;
     background-size: cover;
-}
-@media screen and (max-width: 768px) 
-{
-	.activityTwo
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 3;
-    	grid-row-end: 4;
-	}
 }
 .activityThree {
 	grid-column-start: 2;
@@ -747,16 +363,6 @@ h3 {
     background: url("./images/activity3.jpg") no-repeat center;
     background-size: cover;
 }
-@media screen and (max-width: 768px) 
-{
-	.activityThree
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 5;
-    	grid-row-end: 6;
-	}
-}
 .activityFour {
 	grid-column-start: 3;
     grid-column-end: 3;
@@ -764,16 +370,6 @@ h3 {
     grid-row-end: 5;
     background: url("./images/activity4.jpg") no-repeat center;
     background-size: cover;
-}
-@media screen and (max-width: 768px) 
-{
-	.activityFour
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 7;
-    	grid-row-end: 8;
-	}
 }
 .activityFive {
 	grid-column-start: 4;
@@ -783,16 +379,6 @@ h3 {
     background: url("./images/activity5.jpg") no-repeat center;
     background-size: cover;
 }
-@media screen and (max-width: 768px) 
-{
-	.activityFive
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 9;
-    	grid-row-end: 10;
-	}
-}
 .activitySix {
 	grid-column-start: 4;
     grid-column-end: 4;
@@ -800,16 +386,6 @@ h3 {
     grid-row-end: 5;
     background: url("./images/activity6.jpg") no-repeat center;
     background-size: cover;
-}
-@media screen and (max-width: 768px) 
-{
-	.activitySix
-	{
-		grid-column-start: 1;
-   		grid-column-end: 1;
-    	grid-row-start: 11;
-    	grid-row-end: 12;
-	}
 }
 .imgActivity {
 	height: 100%;
@@ -831,27 +407,262 @@ h3 {
 	padding: 30px;
 	background: rgb(242, 242, 242);
 }
+.elementsOfFooter {
+	width: 33%;
+	margin-left: 2%;
+}
+.contentTextFooter {
+	margin-top: 6%;
+}
+.textFooter {
+	margin-top: 3%;
+}
+
 @media screen and (max-width: 1024px) 
 {
+	.allStars
+	{
+		font-size: 0.6em;
+	}
 	#footer
 	{
 		margin-top: 45px;
 	}
 }
+
 @media screen and (max-width: 768px) 
 {
+	#header
+	{
+		display: block;
+		align-items: center;
+	}
+	#logo
+	{
+		margin-top: 20px;
+	}
+	.imgLogo
+	{
+		width: 15%;
+	}
+	#menu
+	{
+		position: initial;
+		width: 100%;
+		padding: 0;
+	}
+	.li
+	{
+		margin-right: 0;
+		height: 50px;
+		width: 50%;
+	}
+	.li:hover
+	{
+		color: rgb(4, 100, 248);
+		border-top: 0px solid rgb(4, 100, 248);
+		border-bottom: 2px solid rgb(4, 100, 248);
+	}
+	.signUp
+	{
+		position: absolute;
+		width: auto;
+		top: 40px;
+		right: 6%;
+	}
+	.signUp .contentOfLi
+	{
+		margin: 0;
+	}
+	#main
+	{
+		padding: 0;
+	}
+	#search
+	{
+		padding: 8% 6% 0 6%;
+	}
+	.iconInput
+	{
+		width: 15%;
+	}
+	#input {
+		position: relative;
+		width: 100%;
+	}
+	.textInput
+	{
+		width: 75%;
+	}
+	.buttonInput
+	{
+		position: absolute;
+		width: 30%;
+		height: 100%;
+		left: 85%;
+		border-radius: 15px 15px 15px 15px;
+	}
+	.buttonInput
+	{
+		width: 15%;
+	}
+	.textButtonInput
+	{
+		display: none;
+	}
+	.fa-search
+	{
+		display: block;
+		font-size: 1.1em;
+		color: white;
+	}
+	.magnifyingGlass
+	{
+		display: block;
+		margin: auto;
+	}
+	.allButtonsOfSearch
+	{
+		flex-wrap: wrap;
+	}
+	.filters
+	{
+		width: 100%;
+	}
+	.buttonOfSearch
+	{
+		margin: 0;
+		margin: 1% 1% 0 0;
+	}
+	.exclamation
+	{
+		position: relative;
+		bottom: 5px;
+		width: 1.9em;
+		height: 1.5em;
+	}
+	.fa-info
+	{
+		font-size: 0.8em;
+	}
+	.textAfterExclamation
+	{
+		margin-left: 2%;
+	}
+	#houses
+	{
+		width: 100%;
+		flex-direction: column-reverse;
+	}
+	#examplesOfHouses
+	{	width: auto;
+		border-radius: 0;
+		background: white;
+		padding: 2% 6%;
+	}
+	#someHousesPart1
+	{
+		display: block;
+	}
+	#someHousesPart2
+	{
+		display: block;
+	}
+	.house
+	{	
+		width: auto;
+		height: 32vw;
+		margin: 0;
+		margin-bottom: 16px;
+	}
+	.imgHouse
+	{	
+		height: 75%;
+	}
+	.detailsHouse
+	{
+		font-size: 1.5em;
+	}
+	.allStars
+	{
+		font-size: 0.7em;
+	}
+	#mostPopularsHouses
+	{
+		width: auto;
+		padding: 2% 6%;
+		border-radius: 0;
+	}
+	.mostPopular
+	{
+		margin-top: 16px;
+		height: 22vw;
+		border-radius: 25px;
+	}
+	.imgMostPopular
+	{
+		border-radius: 20px 0 0 20px;
+	}
+	.detailsMostPopular
+	{
+		font-size: 1.8em;
+	}
+	#activities
+	{
+		padding: 0 6% 9% 6%;
+	}
+	.wrapperActivities
+	{
+		grid-template-columns: 1fr;
+		grid-template-rows: 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw 5vw 32vw;
+	}
+	.activityOne
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 1;
+    	grid-row-end: 2;
+	}
+	.activityTwo
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 3;
+    	grid-row-end: 4;
+	}
+	.activityThree
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 5;
+    	grid-row-end: 6;
+	}
+	.activityFour
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 7;
+    	grid-row-end: 8;
+	}
+	.activityFive
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 9;
+    	grid-row-end: 10;
+	}
+	.activitySix
+	{
+		grid-column-start: 1;
+   		grid-column-end: 1;
+    	grid-row-start: 11;
+    	grid-row-end: 12;
+	}
 	#footer
 	{
 		display: block;
 		height: auto;
 	}
-}
-.elementsOfFooter {
-	width: 33%;
-	margin-left: 2%;
-}
-@media screen and (max-width: 768px) 
-{
 	.elementsOfFooter
 	{
 		width: 75%;
@@ -859,36 +670,46 @@ h3 {
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 512px) 
+{
+	.imgLogo
+	{
+		width: 30%;
+	}
+	.buttonOfSearch
+	{
+		margin: 2% 5% 2% 0;
+	}
+	.house
+	{	
+		height: 45vw;
+	}
+	.imgHouse
+	{	
+		height: 60%;
+	}
+	.detailsHouse
+	{
+		font-size: 1.2em;
+	}
+	#mostPopularsHouses
+	{
+		width: auto;
+		padding: 5% 6%;
+		border-radius: 0;
+	}
+	.mostPopular
+	{
+		height: 40vw;
+		border-radius: 25px;
+	}
+	.detailsMostPopular
+	{
+		font-size: 1.2em;
+	}
+	.wrapperActivities
+	{
+		grid-template-columns: 1fr;
+		grid-template-rows: 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw 5vw 42vw;
+	}
+}
