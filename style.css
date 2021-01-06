@@ -20,6 +20,8 @@
 }
 .middleFontRegular {
 	font-weight: normal;
+}.littleFontTab {
+	font-size: 0.7em;
 }
 .littleFont {
 	font-size: 0.9em;
@@ -581,7 +583,7 @@ p {
 	}
 	.detailsHouse
 	{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	.night
 	{
@@ -609,7 +611,7 @@ p {
 	}
 	.detailsMostPopular
 	{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	#activities
 	{
@@ -664,7 +666,7 @@ p {
 	}
 	.textActivity
 	{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 	#footer
 	{
